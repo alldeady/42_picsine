@@ -26,17 +26,14 @@ void	print(int x, char left, char middle, char right)
 }
 void	rush(int x, int y)
 {
-	if (x > 0)
-	{
-		if (y >= 1)
-			print(x, 'o', '-', 'o');
-		if (y >= 3)
-		{	
-			while (y-- != 2)
-				print(x, '|', ' ', '|');
-			y++;
-		}
-		if (y >= 2)
-			print(x, 'o', '-', 'o');
+	if (y >= 1)
+		print(x, 'o', '-', 'o');
+	if (y >= 3)
+	{	
+		while (y-- != 2)
+			print(x, '|', ' ', '|');
+		y++;
 	}
+	if (y >= 2)
+		print(x, 'o', '-', 'o');
 }
