@@ -1,0 +1,5 @@
+Credentials cache: API:12251
+        Principal: csnowbal@21-SCHOOL.RU
+
+  Issued                Expires               Principal
+Feb 24 17:33:31 2020  Feb 25 17:33:31 2020  krbtgt/21-SCHOOL.RU@21-SCHOOL.RU
